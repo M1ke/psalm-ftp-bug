@@ -1,6 +1,6 @@
 # Psalm Bug
 
-This is a quick repo designed to show an issue we've seen in Psalm in our codebase.
+This is a quick repo designed to show [an issue we've seen in Psalm](https://github.com/vimeo/psalm/issues/3340) in our codebase.
 
 By having a certain package installed Psalm hard crashes without any output during a run.
 
