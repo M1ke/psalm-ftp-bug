@@ -1,0 +1,17 @@
+{
+    "name": "m1ke/psalm-ftp-bug",
+    "description": "Testing a bug we are experiencing in Psalm",
+    "type": "project",
+    "require": {
+        "dg/ftp-php": "dev-master"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^3.11"
+    },
+    "authors": [
+        {
+            "name": "m1ke",
+            "email": "mike@m1ke.me"
+        }
+    ]
+}
