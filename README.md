@@ -6,6 +6,17 @@ By having a certain package installed Psalm hard crashes without any output duri
 
 This occurs even if the `vendor/` directory is ignored in `psalm.xml`.
 
+## Pre-setup
+
+To make the `composer.lock` file we ran the following in a PHP 7.2 environment:
+
+```
+composer require "dg/ftp:dev-master"
+composer require --dev "vimeo/psalm"
+```
+
+Both packages installed with no issues.
+
 ## Crash
 
 ```
