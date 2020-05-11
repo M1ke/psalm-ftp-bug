@@ -9,6 +9,7 @@ This occurs even if the `vendor/` directory is ignored in `psalm.xml`.
 ## Crash
 
 ```
+$ composer install
 $ vendor/bin/psalm
 
 Uncaught Psalm\Exception\TypeParseTreeException: Intersection types must be all objects or all object-like arrays, Psalm\Type\Atomic\TString provided in /home/m1ke/php/psalm-ftp-bug/vendor/vimeo/psalm/src/Psalm/Type.php:586
